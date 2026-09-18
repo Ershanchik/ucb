@@ -12,6 +12,6 @@ public abstract class CourseCreator{
                """.formatted(course.title(),
                              course.credits(),
                              course.weeklyPlan(),
-                             course.credits() * 25);    // 1 credit ~ 25 hours
+                             course.credits()*25);
     }
 }
